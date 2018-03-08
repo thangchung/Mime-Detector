@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimeDetector", "src\MimeDetective\MimeDetector.csproj", "{9ACD1D62-4527-4794-8451-85ADC5749D34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CA7A260-CF85-4A8E-A0CC-89E636042FB2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimeDetector.Tests", "src\MimeDetective.Tests\MimeDetector.Tests.csproj", "{B2307EDD-FE35-467F-8602-EFECDFC49A11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ACD1D62-4527-4794-8451-85ADC5749D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACD1D62-4527-4794-8451-85ADC5749D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACD1D62-4527-4794-8451-85ADC5749D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACD1D62-4527-4794-8451-85ADC5749D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2307EDD-FE35-467F-8602-EFECDFC49A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2307EDD-FE35-467F-8602-EFECDFC49A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2307EDD-FE35-467F-8602-EFECDFC49A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2307EDD-FE35-467F-8602-EFECDFC49A11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {144C7D71-247D-453F-810B-2A9EB58BCBD6}
+	EndGlobalSection
+EndGlobal

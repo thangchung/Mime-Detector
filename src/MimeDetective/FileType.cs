@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MimeDetective
+﻿namespace MimeDetector
 {
     /// <summary>
     /// Little data structure to hold information about file types. 
@@ -49,11 +47,11 @@ namespace MimeDetective
         /// <param name="mime">The description of MIME.</param>
         public FileType(byte?[] header, int offset, string extension, string mime)
         {
-            this.Header = null;
-            this.Header = header;
-            this.HeaderOffset = offset;
-            this.Extension = extension;
-            this.Mime = mime;
+            Header = null;
+            Header = header;
+            HeaderOffset = offset;
+            Extension = extension;
+            Mime = mime;
         }
 
 
