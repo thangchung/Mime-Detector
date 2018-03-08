@@ -1,6 +1,7 @@
-# Mime-Detective
+# Mime-Detector
 
-Mime type for files.
+The mime detector for files (e.g. png, gif, jpeg, rtf, pdf, docx, zip, rar,...) helps to prevent attacker trying to upload or attack damage files to the web server.
+Reference to [OWASP Top 10 - 2017](https://www.owasp.org/index.php/Top_10-2017_Top_10) for the risks.
 
 > Based on https://github.com/Muraad/Mime-Detective
 
@@ -33,4 +34,4 @@ FileType fileType = MimeTypes.GetFileType(() => fileData);
 
 # Licence
 
-Code released under [the MIT license](https://github.com/thangchung/Mime-Detective/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/thangchung/Mime-Detector/blob/master/LICENSE).
