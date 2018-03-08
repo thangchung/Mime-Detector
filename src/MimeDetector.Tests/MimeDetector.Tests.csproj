@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MimeDetective\MimeDetector.csproj" />
+    <ProjectReference Include="..\MimeDetector\MimeDetector.csproj" />
   </ItemGroup>
 
 </Project>
